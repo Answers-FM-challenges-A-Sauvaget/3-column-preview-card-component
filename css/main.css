@@ -58,8 +58,7 @@ h6 {
 
 /* === ELEMENTS === */
 .card--container {
-  width: 60vw;
-  height: 50vh;
+  width: 40%;
   display: flex;
   position: absolute;
   top: 50%;
@@ -69,6 +68,7 @@ h6 {
 
 .card--article {
   display: flex;
+  height: 100%;
 }
 
 .card--section {
@@ -80,11 +80,11 @@ h6 {
 
 .card--title {
   text-transform: uppercase;
-  margin: 2rem 0;
+  padding-top: 10%;
 }
 
 .card--text {
-  margin: 3rem 0;
+  padding-top: 10%;
   color: var(--neutral);
 }
 .card--button {
@@ -93,8 +93,8 @@ h6 {
   height: 40px;
   border-radius: 20px;
   border: 2px solid white;
+  margin-top: 2rem;
   padding: 0 1.5rem;
-  margin: 4rem 0;
 }
 
 /* === MODIFIERS === */
